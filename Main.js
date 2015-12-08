@@ -1,3 +1,5 @@
+// I HAVE NO IDEA WHY GIT SAYS THAT RICHARD COMMITED THIS. HE HAS NOT EVEN SEEN THIS WORK YET
+
 /**
  * Created by Jonathan Christopher Voelm on 12/2/15.
  * Conjunctive Combinatorial Set Theory
