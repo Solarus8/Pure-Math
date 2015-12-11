@@ -6,14 +6,13 @@
  *
  * Copy Right Jonathan Voelm 12-2-15.
  */
+//Updated 12-10-15
 
-//Updated 12-5-15
-
-/**** Hand Calculated Pattern of the Set Theory ****
+/**** Hand Calculated Pattern of the Conjunctive Combinatorial Set Theory ****
  *
  *
  *
- ****  START OF THEORY  ********************************************************************************************************************************************************
+ ****  START OF THEORY  ****************************************************************************************************************************************************************
  *
  *
  *
@@ -42,7 +41,8 @@ Meaning =  Air, Magnitude, Scalar Vector, 1D line, force, initiation, energy
 1 =             [  {(0, 1)  *2}   ,     {1 , 1} ]   -->  2 first order elements
 #expansion#         /  /|   *2   &;     /|   /|
 #expansion#      ({}+{}+{}) *2   &;  ({}+{}+{}+{})
-                        3    *2    +         4      ==>  10 root elements
+#expansion#          3     *2    +         4
+               ({}+{}+{}) + ({}+{}+{})    +     ({}+{}+{}+{}) ==>  10 root elements
 
 
 10 root nodes  -->  Total number of end point elements, recursive counting of all {}  sets contained in fundamental number 1
@@ -91,9 +91,9 @@ F_Conj_additive_single_decimal_compression_map(3) = 2
  The Dodecahedron
 
 
- 4 =            [ {(0,  4    )*2} ,  {  (1,    4)    *2}  ,   { (2,   2)   *2} ,    {(  3  , 1) *2}  ,  { (2   ,1  ,1)*10}   ,  {1 ,1 ,1 ,1}  ,   {(  4,     1, 1, 1) *4} ]  -->  7 first order elements
- #expansion#       /  ///|||| *2 &;     /|  ///||||  *2  &;    //||  //||  *2 &;      //||   /| *2  &;   //||  /|  /|  *10  &;  /| /| /| /|  &;    ///||||  /| /| /|  *4
- #expansion#            16        +        18             +       16           +          12        +           80           +       8        +           52          ==>  202 root elements
+ 4 =            [ {(0,  4    )*2} ,  {  (1,    4)    *2}  ,   { (2,   2)   *2} ,     {(  1  , 3)  *2}  ,   {( 1 , 1 ,  2) *3}   ,  {1 ,1 ,1 ,1}  ,   {(  4,     1, 1, 1) *4} ]  -->  7 first order elements
+ #expansion#       /  ///|||| *2 &;     /|  ///||||  *2  &;    //||  //||  *2 &;        /|   //|| *2  &;     /|  /|  //|| *3   &;  /| /| /| /|  &;    ///||||  /| /| /|  *4
+ #expansion#            16        +        18             +       16           +          12           +           24           +       8        +           52          ==>  146 root elements
 
 
  202 root nodes   -->  Total number of elements, recursive counting of all {} sets contained in fundamental number 4
@@ -107,22 +107,27 @@ Meaning = Synthesis, Power Step, Completion into Hierarchical Recursion Manifest
 The Icosahedron   -->  The last perfect geometric solid
 
 
-5 = [ {(0,5)*2}, {(1,4)*2}, {(2,3)*2}, {(1,5)*2}, {(2,3)*2}, {(1,2,2)*3}, {(1,3,1)*3}, {(1,1,1,2)*4}, {(1,1,1,1,1)} ]  ---> 7 first order elements   ///  THE SAME AS FOUR!!!!!!
+ 5 =                [ {(0,   5)   *2} ,      {(1,   4)   *2}   ,  {(2,    3) *2 }  , {(1,   5)   *2}  ,    {(2,  3)   *2}  , {(1,  2,    2)  *3}  ,  {(1,  3,    1) *3}  ,  {(1,  1,  1,  2) *4}  , {(1,  1,  1,  1,  1)} ]  ---> 7 first order elements   ///  THE SAME AS FOUR!!!!!!
+ #expansion#           /  ///\\\\ *2 &:       /| ///|||| *2   &;  //|  //|| *2    &;  /| ///|||| *2  &;    //|  //||  *2  &;  /|  //|  //|   *3) &;   /|  //||  /|  *3  &:   /|  /|  /|  //| *4  &;  /|  /|  /|  /|  /|
+ #expansion count#         16         +            18           +       14         +      18          +       14           +        24            +        24            +         36             +           10        ==>  174   root elements
 
 
- //<need to calculate root nodes> -->  Total number of elements, recursive counting of all {} sets contained in fundamental number 5
+ 174   -->  Total number of elements, recursive counting of all {} sets contained in fundamental number 5
 
- //F_Conj_additive_single_decimal_compression_map(5) = <need to calculate based on # of root nodes>
+ F_Conj_additive_single_decimal_compression_map(5) = 3
 
 
  -------------------------------------------------------------------------------------------
  *  SIX
 
- 6 = [ {(0,6)*2},  {(1,5)*2}, {(2,4)*2}, {(3,3)}, {(1,6)*2}, {(2,3)*2} ] ---> 6 first order elements   ///   A SELF MAP.....
+ 6 =              [ {(0,   6)     *2} ,  {(1,     5)   *2}  ,  {(2,   4  )  *2} , {(3,   3)}   ,  {(1,    6)    *2} , {(2,    3) *2}  ,  {(1,  1,   4  )}    , {(1,  2,   3  )   *6}  ,  {( 1, 1,   2,   2) *6?} , {(1,  1,   1,  1,   2)  *5} , {(1,  1,  1,  1,  1,  1)}  ] ---> 12 first order elements
+ #expansion#         /  ///|||    *2 &;   /|  ////|||  *2  &;   //\  //||      &;  //||  //|| &;  /|  ///|||   *2  &;  //\  //|| *2  &;   /|  /|  ////|||   &;  /|  //|  //||    *6  &;    /|  /|  //|  //| *6? &;  /|   /|  /|   /|  //|  *5 ;&   /|  /|  /|  /|  /|  /|
+ #expansion count#      7         *2  +        9       *2   +      7        *2  +       8      +      8        *2  +      7      *2   +          11          +       9        *6     +           10         *6?  +            11           *5  +             12
+                             14       +            18       +         14        +       8      +      16           +         14       +          11          +            54         +                 60        +                   55        +             12    ===> 276 root elements
 
+ 276   -->  Total number of elements, recursive counting of all {} sets contained in fundamental number 6
 
-
-
+ F_Conj_additive_single_decimal_compression_map(6) = 6      // self map!!!
 
  *
  *
